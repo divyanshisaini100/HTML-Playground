@@ -30,14 +30,35 @@
 <section id='Inserting Link'><h2>Inserting Link</h2>
 <p>To view my icon image - <a href='hippo.png'></a>click here</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo qui quas atque laudantium quaerat delectus similique facere labore dolore beatae! Iste eius facilis laboriosam magni corrupti! Quis molestiae velit voluptatum.
 Nulla quas accusantium laborum sed, ea esse qui nobis doloremque, impedit ab necessitatibus voluptates odio nesciunt itaque iure molestias! Ab neque eum atque aliquid accusamus nemo omnis praesentium! Ullam, commodi?</p></section><hr>
+<h2>To download</h2>
+<p>Download <a href= 'hippo.png' download>HTML hippo favicon</a><br><em><ul><li> We need to add 'download' attribute in 'a' tag to make inside a download link.</li><li>Also it will ask for things if confused.</li></ul> </em></p>
+<hr><h2>Different kinds of Links</h2>
+<ul><li>Back to top (USE "#")</li>
+<li><a href = '/'>Back to Home </a>(USE "/")<br><em>Say we are on a differnt page directed by the HOME PAGE then it moves back to HOME PAGE(we began with) </em></li>
+<li>Using 'target' attribute to open in a new tab (target = '_blank')</li>
+<li>Open <a href= 'https://google.com/' target = '_blank'>Google</a> on a new tab</li></ul>
+<hr>
+<h2>IMAGE attributes</h2>
+<ol><li><strong>src:</strong> Enter the source of image</li>
+<li><strong>alt:</strong> Alternative, enter kinda <em>description</em> for the image. <br>(Incase it doesn't load, this text will show up with a picture icon)</li>
+<li><strong>title:</strong>This text will be displayed when you <em>hover</em> over the image</li>
+<li><strong>width & height:</strong> Recommended to enter both. Incase only 'width' entered then, height would be adjusted according to image's proportion<br><em>But both should be specified, it tells computer this much space is fixed for image</em></li>
+<li><strong>loading:</strong> only 2 attributes : 'eager' & 'lazy' <br> Eager is by default so not required<br>'Lazy' HELPS TO LOAD THE PAGE FASTER...it loads an image only when we are close to scrolling</li>
+</ol>
+<figure>
+<img src='hippo.png' alt='HTML hippo favicon' title='hippo icon' width=400 height=400 loading='lazy' />
+<figcaption>Hippo icon - MY FAVOURITE! hurrayyy!!!</figcaption>
+</figure>
+<em>By default, figcaption shifts the image rightward (intends)</em>
 <nav>
 <h2>Link to a specific section within the page</h2>
 <ul><li><a href='#Def'> Move to Definition List</a></li><li><a href='#Abbr'>Move to Abbreviatons</a></li><li><a href='#Inserting Link'>Move to Inserting Link</a></li></ul>
 </nav>
 <hr>
-&lt;&lt;&copy;Divyanshi&gt;&gt; <br>
+&lt;&lt;&lt;&copy;Divyanshi&gt;&gt;&gt; <br>
 <!--Added "Back to Top" in a paragraph tag to visually separate it or style it(remember, it's a block element)-->
 <p><a href='#'>Back to Top</a></p>
+
 
   </body>
 </html>
